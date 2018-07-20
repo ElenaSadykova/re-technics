@@ -2,17 +2,16 @@ body {
 	color: #000000;
 }
 
-/*Шапка сайта*/
+/***Шапка сайта***/
 .headline {
 	background-color: #ffffff;
-	height: 522px;
+ 	height: 522px;
     border-top: 8px solid #2E2D2E;
 }
 
 .headline_logo{
 	margin: 10px 0px 15px 50px;
 }
-
 /*Шапка сайта - Выбор региона*/
 .headline_region{
 	font-size: 20px;
@@ -31,7 +30,6 @@ body {
     line-height: 1px;
 }
 /*Шапка сайта - Выбор региона*/
-
 /*Шапка сайта - Строка поиска*/
 .headline_srctxt{
     width: 250px;
@@ -88,8 +86,6 @@ body {
     right: -15px;
 }
 /*Шапка сайта - Корзина*/
-
-
 /* Шапка - Строка меню*/
 .headline_menu{
 	background: linear-gradient(to bottom, rgba(204,10,10,1) 0%,rgba(181,3,0,1) 100%);
@@ -123,3 +119,16 @@ body {
     text-decoration: none;
 }
 /* Шапка - Строка меню*/
+/* Шапка - Слайдер*/
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    height: 40px;
+    width: 40px;
+}
+/* Шапка - Слайдер*/
+.headline_bottom {
+    background: linear-gradient(to bottom, rgba(204,10,10,1) 0%,rgba(181,3,0,1) 100%);
+    height: 8px;
+    width: 100%;
+}
+/***Шапка сайта - ***/
